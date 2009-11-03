@@ -1,5 +1,3 @@
-# Vienna-to-Yojimbo AppleScripts README
-
 ## ABOUT
 
 Once upon a time, Brent Simmons' excellent [NetNewsWire](http://www.newsgator.com/Individuals/NetNewsWire/ "For years, NetNewsWire set the bar for stability and simplicity in Mac feed readers. Then version 3 happened.") and Bare Bones Software's superb [Yojimbo](http://www.barebones.com/products/yojimbo/ "Yojimbo is an everything bucket that works.") were brought together in holy union by John Gruber's [NetNewsWire-to-Yojimbo scripts](http://daringfireball.net/2007/05/yojimbo_netnewswire_mailsmith "Daring Fireball: Yojimbo Import Scripts for Mailsmith and NetNewsWire"). This trifecta formed the backbone of my day.
@@ -18,7 +16,7 @@ I'm fairly certain that if you're looking for these, you know how to use them. B
 
 If you think tags are for sissies, you can delete the `--prompt` for tags block and the `add_tags` line. I'm not giving you any more help because it might be a felony to encourage your messiness.
 
-## (*TODO*)
+## TODO
 
 Vienna doesn't currently expose its web-browsing tabs to AppleScript AFAIK, so if you invoke the scripts while a web-browsing tab is active, they'll act on the currently-selected item in the Articles tab; I'll modify the scripts to act on the active web-browsing tab once Vienna supports it.
 
