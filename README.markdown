@@ -4,9 +4,7 @@ Once upon a time, Brent Simmons' excellent [NetNewsWire](http://www.newsgator.co
 
 And then, for various undisclosed reasons that rhyme with "schmersion 3 is bruggy", I switched from NNW to [Vienna](http://www.vienna-rss.org/ "Vienna is an open-source Mac OS X feed reader that doesn't sync anywhere but is stable and works well.") as my feed reader of choice. Without the Yojimbo-funneling scripts, however, my life was empty and incomplete.
 
-AND SO, here are my ports of those scripts to work with Vienna, with a few inconsistencies and bugs cleaned up along the way.
-
-Huge THANKS to John for releasing the initial scripts, and (per his notice) to Fraser Speirs for the initial heavy lifting.
+AND SO, here are my ports of those scripts to work with Vienna, with a few inconsistencies and bugs cleaned up along the way. A huge THANKS to John for releasing the initial scripts, and (per his notice) to Fraser Speirs for the initial heavy lifting.
 
 ## USAGE
 
