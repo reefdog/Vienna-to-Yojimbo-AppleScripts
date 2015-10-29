@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <title>Vienna-to-Yojimbo AppleScripts (justinreese.com)</title>
+  <meta name="keywords" content="vienna, rss, yojimbo, applescript, justin, justin reese">
+  <meta name="description" content="AppleScripts for importing Vienna articles into Yojimbo, by Justin Reese and others.">
+  <meta name="viewport" content="width=622">
+  <meta name="generator" content="TextMate https://macromates.com/">
+  <meta name="author" content="Justin Reese">
+  <style type="text/css" media="screen">
+    body{background:#222;margin:0;padding:0 24px;}
+    code{background-color:#444;}
+    body,code{font-family:Inconsolata,Consolas,'Courier New',Courier,Monaco,monospace;font-size:12px;line-height:21px;color:#0f0;}
+    #everything{max-width:600px;margin:0 auto;}
+    #header{font-size:12px;line-height:18px;border:1px solid #0f0;margin:24px 0;padding:16px;font-weight:normal;}
+    .section{position:relative;margin:16px 0;padding-left:120px;}
+    .section h2{position:absolute;top:0;left:0;width:100px;margin:0;padding:0;font-size:12px;line-height:21px;text-align:right;text-transform:uppercase;font-weight:normal;}
+    .section ul{list-style-type:none;}
+    .section li{display:inline;}
+    .section li:after{content:' | ';}
+    .section li:last-child:after{content:'';}
+    a{color:#0f0;}
+    #header a{text-decoration:none;}
+    a:hover,a:focus{color:#000;background-color:#0f0;text-decoration:none;}
+    p,ul{margin:16px 0;padding:0;}
+  </style>
+</head>
+<body>
+
+<div id="everything">
+
+  <h1 id="header"><a href="http://justinreese.com/">justinreese.com</a>:~ justin$ <a href="https://github.com/reefdog/Vienna-to-Yojimbo-AppleScripts">Vienna-to-Yojimbo AppleScripts</a></h1>
+
+  <div class="section">
+    <h2>About</h2>
+    <p>Once upon a time, Brent Simmons' excellent <a href="http://www.newsgator.com/Individuals/NetNewsWire/" title="For years, NetNewsWire set the bar for stability and simplicity in Mac feed readers. Then version 3.2 happened.">NetNewsWire</a> and Bare Bones Software's superb <a href="http://www.barebones.com/products/yojimbo/" title="Yojimbo is an everything bucket that works.">Yojimbo</a> were brought together in holy union by John Gruber's <a href="https://daringfireball.net/2007/05/yojimbo_netnewswire_mailsmith" title="Daring Fireball: Yojimbo Import Scripts for Mailsmith and NetNewsWire">NetNewsWire-to-Yojimbo scripts</a>. This trifecta formed the backbone of my day.</p>
+    <p>And then, for various undisclosed reasons that rhyme with "schmersion 3.2 is bruggy", I switched from <abbr title="NetNewsWire">NNW</abbr> to <a href="http://www.vienna-rss.org/" title="Vienna is an open-source Mac OS X feed reader that doesn't sync anywhere but is stable and works well.">Vienna</a> as my feed reader of choice. Without the Yojimbo-funneling scripts, however, my life was empty and incomplete.</p>
+    <p>AND SO, here are my ports of those scripts to work with Vienna, with a few inconsistencies and bugs cleaned up along the way. A huge THANKS to John for releasing the initial scripts, and (per his notice) to Fraser Speirs for the initial heavy lifting.</p>
+  </div>
+  
+  <div class="section">
+    <h2>Download</h2>
+    <ul>
+      <li><a href="https://raw.githubusercontent.com/reefdog/Vienna-to-Yojimbo-AppleScripts/master/vienna-to-yojimbo-bookmark.scpt">Bookmark Vienna Item into Yojimbo</a></li>
+      <li><a href="https://raw.githubusercontent.com/reefdog/Vienna-to-Yojimbo-AppleScripts/master/vienna-to-yojimbo-archive.scpt">Archive Vienna Item into Yojimbo</a></li>
+    </ul>
+  </div>
+  
+  <div class="section">
+    <h2>Contribute</h2>
+    <p>Please feel free to improve these via the <a href="https://github.com/reefdog/Vienna-to-Yojimbo-AppleScripts">GitHub project page</a>.</p>
+  </div>
+  
+  <div class="section">
+    <h2>Usage</h2>
+    <p>I'm fairly certain that if you're looking for these, you know how to use them. But still: when you invoke these scripts (I suggest assigning keyboard shortcuts with <a href="http://www.red-sweater.com/fastscripts/" title="FastScripts lets you assign shortcuts to AppleScripts, and now it's free for 10-shortcut use so get downloading you miser.">FastScripts</a>), a dialog will prompt you to enter tags (separated by comma-space, like so: <code>, </code>), and the currently-selected Vienna article will be bookmarked or archived into Yojimbo. It uses <a href="http://growl.info/" title="Growl does notifications and stuff and look everybody uses it so just download it.">Growl</a>, so that's probably required.</p>
+  </div>
+  
+  <div class="section">
+    <h2>Modification</h2>
+    <p>If you think tags are for sissies, you can delete the <code>--prompt for tags</code> block and the <code>add_tags</code> line. I'm not giving you any more help because it might be a felony to encourage your messiness.</p>
+  </div>
+  
+  <div class="section">
+    <h2>(*TODO*)</h2>
+    <ul>
+      <li>Vienna doesn't currently expose its web-browsing tabs to AppleScript <abbr title="As Far As I Know">AFAIK</abbr>, so if you invoke the scripts while a web-browsing tab is active, they'll act on the currently-selected item in the Articles tab; I'll modify the scripts to act on the active web-browsing tab once Vienna supports it.</li>
+    </ul>
+  </div>
+  
+  <div class="section">
+    <h2>Warranties</h2>
+    <p>None. Use at your own risk.</p>
+  </div>
+  
+  <div class="section">
+    <h2>Advertising</h2>
+    <p>You should really <a href="http://justinreese.com/" title="All about me, Justin Reese, who is a nice guy.">get to know me</a> or maybe <a href="https://twitter.com/reefdog">follow me on Twitter</a> or <a href="http://chalantfilms.com/">watch my moviefilms</a>.</p>
+  </div>
+  
+</div>
+
+</body>
+</html>
