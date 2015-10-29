@@ -8,7 +8,7 @@ AND SO, here are my ports of those scripts to work with Vienna, with a few incon
 
 ## Usage
 
-I'm fairly certain that if you're looking for these, you know how to use them. But still: when you invoke these scripts (I suggest assigning keyboard shortcuts with [FastScripts](http://www.red-sweater.com/fastscripts/ "FastScripts lets you assign shortcuts to AppleScripts, and now it's free for 10-shortcut use so get downloading you miser.")), a dialog will prompt you to enter tags (separated by comma-space, like so: "`, `"), and the currently-selected Vienna article will be bookmarked or archived into Yojimbo. It uses [Growl](http://growl.info/ "Growl does notifications and stuff and look everybody uses it so just download it."), so that's probably required.
+I'm fairly certain that if you're looking for these, you know how to use them. But still: when you invoke these scripts (I suggest assigning keyboard shortcuts with [FastScripts](http://www.red-sweater.com/fastscripts/ "FastScripts lets you assign shortcuts to AppleScripts, and now it's free for 10-shortcut use so get downloading you miser.")), a dialog will prompt you to enter tags (separated by comma-space, like so: `, `), and the currently-selected Vienna article will be bookmarked or archived into Yojimbo. It uses [Growl](http://growl.info/ "Growl does notifications and stuff and look everybody uses it so just download it."), so that's probably required.
 
 ## Modification
 
